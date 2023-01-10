@@ -1,9 +1,9 @@
 function clickingButton() {
-  msg.innerText = getTbox.value
+  msg.innerText = tbox.value
 }
 
-let getTbox = document.getElementById('tbox')
-let getMsg = document.getElemenyById('msg')
+let tbox = document.getElementById('tbox')
+let msg = document.getElemenyById('msg')
 let checkButton = document.getElementById('button')
 
 checkButton.addEventListener('click', clickingButton)
