@@ -4,4 +4,6 @@ function clickingButton() {
 
 let getTbox = document.getElementById('tbox')
 let getMsg = document.getElemenyById('msg')
-let clickingButton
+let checkButton = document.getElementById('button')
+
+checkButton.addEventListener('click', clickingButton)
