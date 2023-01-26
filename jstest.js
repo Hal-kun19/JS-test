@@ -3,7 +3,7 @@ function clickingButton() {
 };
 
 let tbox = document.getElementById('tbox');
-let msg = document.getElemenyById('msg');
+let msg = document.getElementById('msg');
 let checkButton = document.getElementById('button');
 
 checkButton.addEventListener('click', clickingButton);
